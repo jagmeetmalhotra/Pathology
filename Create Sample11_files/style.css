@@ -1,0 +1,174 @@
+BODY {
+	FONT-SIZE: 11px; MARGIN: 0px; FONT-FAMILY: arial
+}
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial
+}
+A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.button {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 50px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.largeButton {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 70px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.extraLargeButton {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 100px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.extraLargeButton1 {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 120px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.paginationButton {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 30px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.textbox {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #cccccc; COLOR: #333333; BORDER-TOP-COLOR: #cccccc; FONT-FAMILY: arial
+}
+.dropMenu {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #cccccc; WIDTH: 100px; COLOR: #333333; BORDER-TOP-COLOR: #cccccc; FONT-FAMILY: arial
+}
+.wideDropMenu {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #cccccc; WIDTH: 200px; COLOR: #333333; BORDER-TOP-COLOR: #cccccc; FONT-FAMILY: arial
+}
+.bgtextbox {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #cccccc; BORDER-TOP-COLOR: #cccccc; FONT-FAMILY: arial; BACKGROUND-COLOR: #d1d1d1
+}
+.topPanel {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.centerLink1 {
+	FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.centerLink1:hover {
+	FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.centerLink {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.centerLink:hover {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.homeLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.homeLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.borderTable {
+	BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid
+}
+.breadcrumb {
+	FONT-SIZE: 11px; FONT-FAMILY: arial
+}
+.breadcrumbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: arial
+}
+.theader {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc
+}
+.theaderlight {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #e0e0e0
+}
+.tinner {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #f3f3f3
+}
+.tblock {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid
+}
+.tdblockheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #ff9900
+}
+.tdpopupheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #ff9900
+}
+.footer {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: arial
+}
+.popupTopAlign {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; CLIP: rect(auto auto auto auto); BOTTOM: auto; valign: bottom
+}
+.extraLargeButton1 {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 121px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.extraLargeButton2 {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 140px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+.extraLargeButton3 {
+	FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 160px; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+SPAN.mandatoryText {
+	FONT-SIZE: 11px; COLOR: #ff0000
+}
+.tdTableBorder {
+	BACKGROUND-COLOR: #cccccc
+}
+.reportBackgroundColor {
+	BACKGROUND-COLOR: #ffffff
+}
+.reportColor {
+	BACKGROUND-COLOR: #00ff00
+}
+.reportHeaderColor {
+	BACKGROUND-COLOR: #e4e4e4
+}
+.reportFont {
+	FONT-SIZE: 11px; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.reportFontBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.whiteBackground {
+	BACKGROUND-COLOR: #ffffff
+}
+.topHeader {
+	BACKGROUND-COLOR: #ff9900
+}
+.centreHeader {
+	BACKGROUND-COLOR: #999999
+}
+.bottomHeader {
+	BACKGROUND-COLOR: #6699cc
+}
+.errorText {
+	COLOR: #ff0000; FONT-FAMILY: arial
+}
+.successText {
+	COLOR: #006600; FONT-FAMILY: arial
+}
+.headerText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000
+}
+.rightSideBarText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff
+}
+.userHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+style15 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+style23 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.categoryLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.categoryLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.urmDateException {
+	FONT-SIZE: 11px; COLOR: #ff0000; BACKGROUND-COLOR: #ffffff
+}
+.homeContentTopBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.homeContentBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.homeContentText {
+	FONT-SIZE: 11px
+}
