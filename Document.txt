@@ -1,0 +1,102 @@
+
+
+
+
+
+//<?php
+
+//include("cust_auto_id.php");
+include("local_con.php");
+?>
+<?php
+/*$dbh = mysql_connect($hostname, $username, $password)
+ or die("Unable to connect to MySQL");
+mysql_select_db("cdri");*/
+
+print $_REQUEST('date');
+
+print $_REQUEST('month');
+
+print $_REQUEST('year');
+
+/*$d=mktime(0,0,0,$month,$date,$year);
+
+print $d;
+$dob=date("Y-m-d",$d);
+
+
+
+//$td=date("Y/m/d");
+
+print $dob."<br>";
+
+$res=mysql_query("select * from privilege");
+
+$nr=mysql_num_rows($res);
+
+if($nr>0)
+
+{
+
+ while($ar=mysql_fetch_row($res))
+
+  {
+    if()
+   $ut=$ar[1];
+   print "id".$ar[0];
+  }
+}
+
+//INSERT VALUE INTO CUSTOMER TABLE
+
+$q1="insert into users values(89,$_REQUEST('loginName'),$_REQUEST('firstName'),$_REQUEST('lastName'),$_REQUEST('password'),$_REQUEST('phoneNumber'),$dob,$_REQUEST('address1'),$_REQUEST('address2'),$_REQUEST('position'),$_REQUEST('email'),$_REQUEST('alternateEmail'),1,87,date_format(now(),'%m/%d/%Y %H:%i:%S'),87,date_format(now(),'%m/%d/%Y %H:%i:%S'),$_REQUEST('userType'),0);
+
+mysql_query($q1,$dbh);
+
+//$q2="select * from cust_info";
+//mysql_query("select * from cust_info");
+//INSERT VALUE INTO CUSTLOGIN TABLE*/
+
+/*$q="insert into cust_login values($cid,'$pass1','n')";
+
+mysql_query($q,$dbh);
+
+$res3=mysql_query("select * from cust_login");
+
+$nr=mysql_num_rows($res3);
+
+if($nr>0)
+
+{
+
+ while($ar=mysql_fetch_row($res3))
+
+  {
+   print "new id".$ar[0];
+  }
+}*/
+print "</BODY><html><br><br>";
+
+print "<center><h1>Registered user</h1>";
+
+
+
+mysql_close($dbh);
+
+?>
+
+
+
+
+<?php
+
+*print "Your customer id is ".$cid;
+
+print "<font color=red>(Important For login)</font><br><br>";
+
+print "<a href=login1.php>Login</a>"*/
+
+?>
+</center></BODY>
+</html>
+

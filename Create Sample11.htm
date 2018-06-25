@@ -1,0 +1,296 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0056)http://localhost:8080/SAIF/createSample.do?menuClicked=y -->
+<HTML><HEAD><TITLE>Create Sample</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<SCRIPT src="css_files/validations.js"></SCRIPT>
+
+<SCRIPT src="css_files/common.js"></SCRIPT>
+<LINK href="css_files/style.css" type=text/css rel=stylesheet>
+<SCRIPT src="css_files/ua.js"></SCRIPT>
+
+<SCRIPT src="css_files/ftiens4.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+USETEXTLINKS = 1
+STARTALLOPEN = 0
+USEFRAMES = 0
+USEICONS = 0
+ICONPATH = '/SAIF/images/'
+WRAPTEXT = 1
+PERSERVESTATE = 1
+foldersTree = gFld("", "")
+
+aux1 = insFld(foldersTree, gFld("Create Sample","/SAIF/createSample.do?menuClicked=y"))
+
+aux1 = insFld(foldersTree, gFld("View Lot","/SAIF/viewLot.do?menuClicked=y"))
+
+
+var browserVer=parseInt(navigator.appVersion); 
+var browserName=navigator.appName; 
+
+</SCRIPT>
+<NOSCRIPT>
+<META content="MSHTML 6.00.2900.2853" name=GENERATOR></HEAD>
+<BODY>
+<CENTER>
+<H5>"Hello How are u"</H5></CENTER></NOSCRIPT>
+<TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0><!-- header code starts here -->[ServletException 
+  in:/common/jsp/mainheader.jsp] javax.servlet.jsp.JspException: Missing message 
+  for key "PORTAL-GNR-002"' 
+  <TBODY>
+  <TR><!-- LHS Nav code starts here -->
+    <TD class=bottomHeader vAlign=top align=middle width=144 rowSpan=3>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE class=borderTable cellSpacing=0 cellPadding=0 width=128 
+      align=center border=0>
+        <TBODY>
+        <TR>
+          <TD background="css_files/bgTopNavigation.jpg" 
+            height=117><TABLE height="100%" cellSpacing=0 cellPadding=0 
+            width="97%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=leftsidebar vAlign=top width=12 height=61>&nbsp; </TD>
+                <TD class=leftsidebar align=left width="97%" height=61><FONT 
+                  size=0></FONT>
+                  <SCRIPT>initializeDocument()</SCRIPT>
+                </TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=17 
+                  src="css_files/trans_spacer.gif" 
+              width=7></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD><!-- body code starts here -->
+    <SCRIPT language=Javascript1.1 type=text/javascript> 
+
+<!-- Begin 
+
+     var bCancel = false; 
+
+    function validateSampleFB(form) {                                                                   
+        if (bCancel) 
+      return true; 
+        else 
+       return validateMaxLength(form) && validateRequired(form) && validateMask(form) && validateInteger(form); 
+   } 
+
+    function maxlength () { 
+     this.aa = new Array("sampleName", "Sample Name can not be greater than Fifty characters.", new Function ("varName", "this.maxlength='50'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ab = new Array("sampleDescription", "Description can not be greater than Two hundred characters.", new Function ("varName", "this.maxlength='200'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ac = new Array("quantity", "Quantity can not be greater than Three characters.", new Function ("varName", "this.maxlength='3'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ad = new Array("solubility", "Solubility can not be greater than Fifty characters.", new Function ("varName", "this.maxlength='50'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+    } 
+
+    function required () { 
+     this.aa = new Array("sampleName", "Sample Name is required.", new Function ("varName", "this.maxlength='50'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ab = new Array("quantity", "Quantity is required.", new Function ("varName", "this.maxlength='3'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ac = new Array("solubility", "Solubility is required.", new Function ("varName", "this.maxlength='50'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+    } 
+
+    function mask () { 
+     this.aa = new Array("sampleName", "Sample Name is invalid. Please enter alphanumeric characters.", new Function ("varName", "this.maxlength='50'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ab = new Array("sampleDescription", "Description is invalid. Please enter alphanumeric characters.", new Function ("varName", "this.maxlength='200'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+     this.ac = new Array("solubility", "Solubility is invalid. Please enter alphanumeric characters.", new Function ("varName", "this.maxlength='50'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+    } 
+
+    function IntegerValidations () { 
+     this.aa = new Array("quantity", "Quantity must be a positive integer.", new Function ("varName", "this.maxlength='3'; this.mask=/^[a-zA-Z0-9$%\\^*()\\s!@#\\-,?]*$/;  return this[varName];"));
+    } 
+
+
+//End --> 
+</SCRIPT>
+
+    <SCRIPT type=text/javascript>
+
+function check()
+        {
+         for (var ctr = 0; ctr < document.sampleFB.selectedFacility.length; ctr++)
+                {
+                if (document.sampleFB.selectedFacility[ctr].checked)
+                    {
+                    
+                    document.sampleFB.selectedInstrument[ctr].disabled=false;
+                    }
+              
+				if (!document.sampleFB.selectedFacility[ctr].checked)
+                    {
+                   
+                    document.sampleFB.selectedInstrument[ctr].disabled=true;
+                    }
+                }
+        }
+        
+    function submitForm()
+        {
+       
+       if(!validateSampleFB(sampleFB))
+		{
+			return false;
+		}
+		
+		if(!facilityCheck())
+		{
+			return false;
+		}
+		if(!instrumentCheck())
+		{
+			return false;
+		}
+		 document.sampleFB.performActionId.value = 'B';
+		  document.sampleFB.submit();
+        }
+        
+        function instrumentCheck(){
+        
+	          for (var ctr = 0; ctr < document.sampleFB.selectedFacility.length; ctr++){
+		                if (document.sampleFB.selectedFacility[ctr].checked){
+		                    
+			                    if(document.sampleFB.selectedInstrument[ctr].value==-1){
+									alert('Please select instrument');
+									return false;
+								}
+		                   }
+	              }
+	           return true;   
+	       }
+       function facilityCheck(){
+        
+	          for (var ctr = 0; ctr < document.sampleFB.selectedFacility.length; ctr++){
+		                if (document.sampleFB.selectedFacility[ctr].checked){
+		                  	return true;
+						}
+	         }
+	         alert('Please select at least one facility')
+        return false;
+     }
+     
+       
+</SCRIPT>
+
+    <FORM name=sampleFB action=/SAIF/createSample.do method=post><INPUT 
+    type=hidden value=Z name=performActionId> <INPUT type=hidden value=-1 
+    name=sampleId> 
+    <TD id=checktable vAlign=top align=middle width="100%" colSpan=2>
+      <TABLE cellSpacing=2 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR class=theader>
+          <TD align=left></TD>
+          <TD align=left></TD></TR>
+        <TR class=tinner>
+          <TD align=left>Sample Name:</TD>
+          <TD align=left><INPUT name=sampleName></TD></TR>
+        <TR class=tinner>
+          <TD align=left>Quantity:</TD>
+          <TD align=left><INPUT value=0 name=quantity> </TD></TR>
+        <TR class=tinner>
+          <TD align=left>Solubility:</TD>
+          <TD align=left><INPUT name=solubility></TD></TR>
+        <TR class=tinner>
+          <TD align=left>Any Other Information:</TD>
+          <TD align=left><INPUT name=sampleDescription></TD></TR>
+        <TR class=theader>
+          <TD align=left>Facility:</TD>
+          <TD align=left>Instrument:</TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=1 
+            name=selectedFacility> MASS</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=1>FAB</OPTION> <OPTION value=2>APCI</OPTION> <OPTION 
+              value=3>ESI</OPTION> <OPTION value=4>LCMS</OPTION> <OPTION 
+              value=5>GC/MS</OPTION> <OPTION value=6>MADI TO 
+        F</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=2 
+            name=selectedFacility> 1Proton NMR</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=7>Default 1H NMR</OPTION> <OPTION value=8>1H + D2O 
+              Shake</OPTION> <OPTION value=9>1H + COSY</OPTION> <OPTION 
+              value=10>1H + NOESY</OPTION> <OPTION value=11>1H + COSY + 
+              NOESY</OPTION> <OPTION value=12>Any Other</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=3 
+            name=selectedFacility> Carbon NMR</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=13>13C Default</OPTION> <OPTION value=14>13C + DEPT 
+              90* &amp; 135*</OPTION> <OPTION value=15>13C + HSQC</OPTION> 
+              <OPTION value=16>13C + HMBC</OPTION> <OPTION value=17>Any 
+              Other</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=4 
+            name=selectedFacility> IR</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=18>IR</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=5 
+            name=selectedFacility> GLC</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=19>GLC</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=6 
+            name=selectedFacility> POLARIMETER</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=20>POLARIMETER</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=7 
+            name=selectedFacility> EM</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=21>EM</OPTION></SELECT></TD></TR>
+        <TR class=tinner>
+          <TD><INPUT onclick=" javascript:check()" type=checkbox value=8 
+            name=selectedFacility> Solublity for NMR other then CDCL3</TD>
+          <TD><SELECT class=dropMenu disabled 
+              name=selectedInstrument><OPTION value=-1 selected>Select</OPTION> 
+              <OPTION value=22>DMSO-D6</OPTION> <OPTION value=23>D2O</OPTION> 
+              <OPTION value=24>CD3OD</OPTION> <OPTION value=25>PYD5</OPTION> 
+              <OPTION value=26>C6D6</OPTION> <OPTION value=27>TFA-D</OPTION> 
+              <OPTION value=28>Acelone-D6</OPTION></SELECT></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=2 cellPadding=0 width="100%" border=0><INPUT class=extraLargeButton1 onclick=" javascript:submitForm()" type=button value=Submit name=submit1> 
+
+        <TBODY></TBODY></TABLE></TD></FORM>
+  <TR>
+    <TD vAlign=bottom colSpan=2><!-- footer code starts here -->
+      <SCRIPT language=javascript>
+	function top()
+	{
+	  document.location.href="#top";
+	}
+	</SCRIPT>
+
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=left width=18 rowSpan=6><IMG height=5 
+            src="css_files/trans_spacer.gif" width=18></TD>
+          <TD align=right>
+            <TABLE height=18 cellSpacing=0 cellPadding=0 width="100%" 
+              border=0><TBODY>
+              <TR vAlign=top>
+                <TD width="92%" height=18>&nbsp;</TD>
+                <TD align=right width="4%"><SPAN class=footer>Up</SPAN></TD>
+                <TD align=middle width="4%"><A href="javascript:top();"><IMG 
+                  height=11 src="" width=12 border=0></A> 
+</TD></TR></TBODY></TABLE></TD>
+          <TD align=right width=18 rowSpan=6><IMG height=5 
+            src="css_files/trans_spacer.gif" width=18> </TD></TR>
+        <TR>
+          <TD><IMG height=5 hspace=0 src="" width=1 border=0></TD></TR>
+        <TR>
+          <TD><IMG height=1 hspace=0 src="" width="100%" border=0></TD></TR>
+        <TR>
+          <TD><IMG height=7 hspace=0 src="" width=1 border=0></TD></TR>
+        <TR>
+          <TD class=footer vAlign=top align=left height=14>© CDRI 2008</TD></TR>
+        <TR>
+          <TD><IMG height=15 hspace=0 src="" width=1 
+      border=0></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>
